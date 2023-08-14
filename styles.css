@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman',serif, sans-serif;
+    background-color: #eef6f6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: max-content;
+    width: 80%;
+    margin: 50px auto;
+    color: #ccc;
+    background-color: #011c40;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+img{
+    width: 20%;
+}
+.container table{
+    border: 0.1em solid darkcyan;
+    width: 100%;
+    border-collapse:collapse;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.container table caption{
+    border: 0.1em solid darkcyan;
+    font-size: 1.5em;
+    font-weight:bold;
+    overflow: hidden;
+}
+.container th, td{
+    border: 0.1em solid darkcyan;
+    padding: 0.5em;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+h1 {
+    position: relative;
+    bottom: 90px;
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+    margin-top: -35px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    bottom: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: large;
+}
+label{
+    font-size: larger;
+}
+p {
+font-family:'Times New Roman',serif, sans-serif;
+}
+input {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(15, 28, 28);
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 102%;
+    padding: 10px;
+    background-color: darkcyan;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:darkcyan;
+}
+
+#result {
+    text-align: center;
+    margin-top: 50px;
+}

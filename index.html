@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaQXIoAD9dajrUpB32MYcAV5aD-UeJ-vesCrxCSmRQ=s900-c-k-c0x00ffffff-no-rj" alt="company logo">
+        <h1>Commission Estimator(AM)</h1>
+        <H2>All values must be in USD</H2>
+        <label for="otc">Monthly* On Target Commission amount:</label>
+        <input type="text" id="otc">
+        
+        <label for="targetRenewal">Renewal Target:</label>
+        <input type="text" id="targetRenewal">
+
+        <label for="salesRenewal">Renewal Sales achieved:</label>
+        <input type="text" id="salesRenewal">
+        
+        <label for="targetUpsell">Upsell Target:</label>
+        <input type="text" id="targetUpsell">
+    
+        <label for="salesUpsell">Upsell Sales achieved:</label>
+        <input type="text" id="salesUpsell">
+        
+        <button id="btnCalculate">Estimate</button>
+        
+        <h2 id="result">Commission: </h2>
+        
+      <table>
+       <caption> Attainment Data </caption>
+        <tr>
+            <th></th>
+           <th>Total Commission</th>
+           <th>% of Target</th>
+           <th>% of OTC</th>
+           
+        </tr>
+        <tr>
+            <td>Renewal Commission</td>
+            <td><h3 id="Renewal Commission"></h3></td>
+            <td><h3 id="% targetren"></td>
+            <td><h3 id="% otcren"></td>
+        </tr>
+        <tr>
+            <td>Upsell Commission</td>
+            <td><h3 id="Upsell Commission"></h3></td>
+            <td><h3 id="% targetup"></td>
+            <td><h3 id="% otcup"></td>
+        </tr>
+        <tr>
+            <td>Total Commission</td>
+            <td><h3 id="Total Commission"></td>
+            <td><h3 id="% totalren"></td>
+            <td><h3 id="% totalup"></td>
+        </tr>
+      </table>
+      
+      <p>*Please note: This estimator is designed to provide an estimation of your commission, actual achievements and earnings will be visible in your Xactly.<br> Up calculations are not included in the estimation.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
